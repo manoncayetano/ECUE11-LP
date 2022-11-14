@@ -1,0 +1,159 @@
+/*h2 {
+    visibility: hidden;
+}*/
+/* Section voiture img*/
+/* Header */
+body {
+  background-color: #161717;
+  margin: 1rem;
+  border: none;
+}
+button {
+  background-color: #161717;
+  margin: 1rem;
+  border: none;
+}
+h1 {
+  color: #F3F3F3;
+  text-decoration: none;
+}
+h2 {
+  color: #F3F3F3;
+  text-decoration: none;
+  display: none;
+}
+h3 {
+  color: #F3F3F3;
+  text-decoration: none;
+  font-size: 20px;
+}
+a {
+  color: #F3F3F3;
+  text-decoration: none;
+  padding-left: 6%;
+}
+h4 {
+  color: #F3F3F3;
+  text-decoration: none;
+}
+p {
+  color: #8A8B8B;
+}
+img {
+  color: #8A8B8B;
+  width: 2rem;
+}
+small {
+  color: #8A8B8B;
+}
+#button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 2%;
+}
+.icones {
+  align-self: center;
+  height: 35px;
+}
+
+.simone_img {
+  width: 100%;
+}
+.simone {
+  width: 100%;
+}
+header {
+  display: flex;
+  align-items: center;
+  >h1 {
+    margin-left: 10%;
+  }
+}
+.meter {
+  width: 9%;
+  height: 20px;
+}
+.fleche {
+  position: absolute;
+  right: 5%;
+}
+.bloc {
+  >.info {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+  }
+}
+.graph {
+  padding: 10%;
+}
+.infos-stats {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#bloc1 {
+  background-color: #212223;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0%;
+  width: 100%;
+}
+
+#voiture {
+  display: flex;
+  justify-content: center;
+}
+
+.titre-3 {
+  width: 100%;
+}
+
+li.infos {
+  width: 50%;
+}
+
+
+#stat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+
+.titre-4 {
+  color: #8A8B8B;
+  font-size: 16px;
+}
+.sup {
+  color: #fff;
+  font-size: 25px;
+}
+#bloc2 {
+    background-color: #212223;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0%;
+    width: 100%;
+  }
+@media screen and (min-width: 790px) {
+  #graphique, #blocs, #stat-info, #blocG, #nav {
+    width: 49%;
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  #stat {
+    text-align: center;
+  }
+
+}
